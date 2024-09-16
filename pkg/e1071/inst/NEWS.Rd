@@ -3,7 +3,10 @@
 \newcommand{\cpkg}{\href{https://CRAN.R-project.org/package=#1}{\pkg{#1}}}
 
 \section{Changes in version 1.7-16}{
-   \itemize{\item fix bug in svmdoc vignette}
+  \itemize{
+    \item fix bug in svmdoc vignette
+    \item fix possible glitch in svm.cpp regarding memory allocation
+  }
 }
 
 \section{Changes in version 1.7-15}{
