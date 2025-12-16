@@ -22,7 +22,7 @@
 \large Some technical notes about the \texttt{svm()} in package \pkg{e1071}}
 \author{by David Meyer\\
   FH Technikum Wien, Austria\\
-\url{David.Meyer@R-Project.org}
+\url{mailto:David.Meyer@R-Project.org}
 }
 \maketitle
 \sloppy

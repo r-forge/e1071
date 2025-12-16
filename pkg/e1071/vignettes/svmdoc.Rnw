@@ -24,7 +24,7 @@
 \large The Interface to \texttt{libsvm} in package \pkg{e1071}}
 \author{by David Meyer\\
   FH Technikum Wien, Austria\\
-\url{David.Meyer@R-Project.org}
+\url{mailto:David.Meyer@R-Project.org}
 }
 \maketitle
 \sloppy
