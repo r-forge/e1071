@@ -96,7 +96,8 @@ clusters.bclust(object, k, x=NULL)
 \references{
   Friedrich Leisch. Bagged clustering. Working Paper 51, SFB ``Adaptive
   Information Systems and Modeling in Economics and Management
-  Science'', August 1999. \url{https://epub.wu.ac.at/1272/1/document.pdf}}
+  Science'', August 1999. \doi{10.57938/9b129f95-b53b-44ce-a129-5b7a1168d832}
+}
 \seealso{\code{\link{hclust}}, \code{\link{kmeans}},
   \code{\link{boxplot.bclust}}}
 \keyword{multivariate}
