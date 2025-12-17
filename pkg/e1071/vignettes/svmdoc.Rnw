@@ -1,5 +1,5 @@
 \documentclass[a4paper]{article}
-\usepackage{hyperref, graphicx, color, alltt}
+\usepackage{hyperref, graphicx, color, alltt, doi}
 \usepackage{Sweave}
 \usepackage[round]{natbib}
 \definecolor{Red}{rgb}{0.7,0,0}
@@ -42,7 +42,7 @@ model representation.
 The package \pkg{e1071} offers an interface to the
 award-winning\footnote{The library won the IJCNN 2001 Challenge by solving two of
   three problems: the Generalization Ability Challenge (GAC) and the Text
-  Decoding Challenge (TDC). For more information, see: \url{http://www.csie.ntu.edu.tw/~cjlin/papers/ijcnn.ps.gz}.}
+  Decoding Challenge (TDC). For more information, see: \url{https://www.csie.ntu.edu.tw/~cjlin/papers/ijcnn.ps.gz}.}
 C++-implementation by Chih-Chung Chang and Chih-Jen Lin,
 \texttt{libsvm} (current version: 2.6), featuring:
 \begin{itemize}
@@ -132,9 +132,15 @@ regression forests as implemented in \texttt{randomForest()}.
 
 \subsection*{Classification}
 
-In this example, we use the glass data from the \href{http://www.ics.uci.edu/mlearn/MLRepository.html}{UCI Repository of
-Machine Learning Databases} for
-classification. The task is to predict the type of a glass on basis
+In this example, we use the glass data from the UCI Repository of
+Machine Learning Databases for
+classification \citep{svm:blake+merz:1998}, converted to R
+format by Friedrich Leisch in the late 1990s.
+The current version of the UC Irvine Machine Learning Repository
+Glass Identification data set is available from
+\doi{10.24432/C5WW2P}.
+
+The task is to predict the type of a glass on basis
 of its chemical analysis.
 We start by splitting the data into a train and test set:
 <<>>=
@@ -429,7 +435,7 @@ for the radial basis function kernel only, which clearly might be
 suboptimal for your data.
 
 
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 
 \bibitem[Bennett \& Campbell(2000)]{svm:bennett+campbell:2000}
 Bennett, K.~P. \& Campbell, C. (2000).
@@ -438,13 +444,21 @@ Bennett, K.~P. \& Campbell, C. (2000).
 \newblock
   \url{http://www.acm.org/sigs/sigkdd/explorations/issue2-2/bennett.pdf}.
 
+\bibitem[Blake \& Merz(1998)]{svm:blake+merz:1998}
+Blake, C.L. \& Merz, C.J. (1998).
+\newblock  UCI Repository of Machine Learning Databases.
+\newblock Irvine, CA:
+  University of California, Irvine, Department of Information and Computer
+  Science.
+\newblock Formerly available from \texttt{http://www.ics.uci.edu/~mlearn/MLRepository.html}.
+  
 \bibitem[Chang \& Lin(2001)]{svm:chang+lin:2001}
 Chang, C.-C. \& Lin, C.-J. (2001).
 \newblock {LIBSVM}: a library for support vector machines.
 \newblock Software available at
-\url{http://www.csie.ntu.edu.tw/~cjlin/libsvm}, detailed documentation
+\url{https://www.csie.ntu.edu.tw/~cjlin/libsvm}, detailed documentation
 (algorithms, formulae, \dots) can be found
-in \url{http://www.csie.ntu.edu.tw/~cjlin/papers/libsvm.ps.gz}
+in \url{https://www.csie.ntu.edu.tw/~cjlin/papers/libsvm.ps.gz}
 
 \bibitem[Cortes \& Vapnik(1995)]{svm:cortes+vapnik:1995}
 Cortes, C. \& Vapnik, V. (1995).
