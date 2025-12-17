@@ -456,7 +456,7 @@ Blake, C.L. \& Merz, C.J. (1998).
 Chang, C.-C. \& Lin, C.-J. (2001).
 \newblock {LIBSVM}: a library for support vector machines.
 \newblock Software available at
-\url{https://www.csie.ntu.edu.tw/~cjlin/libsvm}, detailed documentation
+\url{https://www.csie.ntu.edu.tw/~cjlin/libsvm/}, detailed documentation
 (algorithms, formulae, \dots) can be found
 in \url{https://www.csie.ntu.edu.tw/~cjlin/papers/libsvm.ps.gz}
 
